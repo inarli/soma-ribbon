@@ -10,7 +10,7 @@ Author URI: http://uysalmustafa.com/
 */
 
 function komur_ribbon() {
-	echo '<img src='.plugins_url( 'black-ribbon.png', __FILE__ ).' alt="Bir avuç kömür için ömür verenlere..."  title="Bir avuç kömür için ömür verenlere..." style="position: fixed; bottom: 0; right: 0; z-index: 999999; cursor: pointer;" />';
+	echo '<img src='.plugins_url( 'black-ribbon.png', __FILE__ ).' alt="Ülkemizde Yaşanan Terör Olaylarında Can Verenlerimize..."  title="Ülkemizde Yaşanan Terör Olaylarında Can Verenlerimize..." style="position: fixed; bottom: 0; right: 0; z-index: 999999; cursor: pointer;" />';
 }
 
 add_action( 'wp_footer', 'komur_ribbon' );
